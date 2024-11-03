@@ -1,0 +1,110 @@
+/* Dark theme styling */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  
+  input {
+    display: block;
+    margin: 10px auto;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #e0e0e0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
+
+  #grid {
+    display: grid;
+    margin-top: 20px;
+    gap: 1px;
+    max-width: 90vw;
+    max-height: 70vh;
+    overflow: auto; 
+    border: 2px solid #444;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+
+  .grid-item {
+    background-color: #333;
+    width: 17px;
+    height: 17px;
+    border: 1px solid #444;
+  }
+  .blocked-item{
+    width: 17px;
+    height: 17px;
+  }
+  
+  .start {
+    background-color: #6200ea;
+}
+.end {
+    background-color: #6200ea;
+}
+.visited {
+    background-color: rgb(103, 0, 48);
+}
+.path {
+    background-color: rgb(0, 0, 101);
+}
+
+.bfsButton{
+    /* margin-top: 10px;
+    margin-right: 7px; */
+    margin-left: 1px;
+}
+
+.visiteddfs {
+  background-color: rgb(103, 79, 0);
+}
+.pathdfs {
+  background-color: rgb(101, 0, 0);
+}
+
+#terminal {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  height: 150px;
+  overflow-y: auto;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 5px;
+  border: 1px solid #333;
+  text-align: left;
+
+}
